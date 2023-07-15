@@ -29,4 +29,14 @@
   }
 }
 
+.section_double {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+@media all and (width < 1000px) {
+  .section_double {
+    grid-template-columns: 1fr;
+  }
+}
+
 /*# sourceMappingURL=service.css.map */
