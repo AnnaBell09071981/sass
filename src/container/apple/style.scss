@@ -177,7 +177,6 @@ $productImage:(
 
 .footer_card {
     display: flex;
-    flex-direction: column;
     align-items: center;
     gap: 10px;
     align-self: stretch;
@@ -194,7 +193,7 @@ $productImage:(
 
 .footer_link {
     display: flex;
-flex-direction: column;
-align-items: flex-start;
-gap: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
 }
